@@ -15,5 +15,5 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           owner: $current_repo_owner
-          base: main
+          base: microsoft/vscode:main
           head: main
